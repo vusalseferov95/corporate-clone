@@ -1,0 +1,35 @@
+.btn {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    height: 42px;
+    padding: 0 17px;
+    background-color: transparent;
+    border: none;    
+    cursor: pointer;
+}
+
+.btn-rounded {
+    border-radius: 5px;
+}
+
+.btn-primary {
+    background-color: var(--primary);
+    color: #fff;
+}
+
+.img-cover {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.img-contain {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.img-shadov {
+    inset: 0;
+}

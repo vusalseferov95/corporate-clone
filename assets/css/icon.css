@@ -1,0 +1,31 @@
+.icon-60 {
+    width: 60px;
+    height: 60px;
+}
+
+.img-226 {
+    width: 226px;
+    height: 352px;
+}
+
+.img-370 {
+    width: 370;
+    height: 410px;
+    border-radius: 12px;
+}
+
+.img-383 {
+    width: 383px;
+    height: 484px;
+}
+
+.img-514 {
+    width: 514px;
+    height: 639px;
+    background: url(/assets/images/div4-image-shadov.png), lightgray 50% / cover no-repeat;
+}
+
+.icon-shapes {
+    width: 112px;
+    height: 112px;
+}
