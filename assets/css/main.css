@@ -8,7 +8,8 @@
 .page-head {
     width: 1200px;
     height: 100px;
-    gap: 225px;
+    gap: 120px;
+    padding: 0 120px;
 }
 
 .logo {
@@ -49,10 +50,9 @@
 }
 
 .page-content {
-    width: 1600px;
+    width: 1200px;
     height: 670px;
-    padding-left: 24px;
-    padding-right: 25px;
+    padding: 0 100px;
     gap: 17px;
     background-color: #031333;
     position: relative;
@@ -139,7 +139,7 @@
 
 .div2-shapes {
     position: absolute;
-    left: -260px;
+    left: -55px;
     top: 175px;
 }
 
@@ -198,22 +198,22 @@
 }
 
 .btn-number {
-    width: 300px;
+    display: flex;
+    width: 255px;
     height: 57px;
     padding: 14px 17px;
+    justify-content: center;
+    align-items: center;
     gap: 10px;
+    background-color: #F54C1E;
+    color: #fff;
     border: none;
-    border-radius: 2px;
-    background: #F54C1E;
-    padding-top: 29px;
-}
-
-.number-text {
-    color: #FFF;
-    font-family: Lato;
+    border-radius: 5px;
     font-size: 16px;
     font-weight: 700;
     line-height: 100%;
+    text-wrap: nowrap;
+    margin-top: 30px;
 }
 
 .div3-shapes {
@@ -225,7 +225,7 @@
 
 .div4 {
     display: flex;
-    width: 1600px;
+    width: 1200px;
     height: 1010px;
     padding: 123px 260px;
     background: #031333;
@@ -268,17 +268,17 @@
 }
 
 .div6 {
-    width: 1600px;
+    width: 1200px;
     align-items: center;
     justify-content: center;
-    padding: 306px 73px;
+    padding: 160px 73px;
 }
 
 .div7 {
     background-image: url(/assets/icones/div7-image.png);
-    padding: 130px 235px;
+    padding: 130px 100px;
     position: relative;
-    width: 1622px;
+    width: 1200px;
     height: 380px;
 }
 
@@ -292,13 +292,13 @@
 .div7-info {
     display: flex;
     align-items: center;
-    gap: 198px;
+    gap: 100px;
     position: relative;
     z-index: 1;
 }
 
 .get-free {
-    width: 650px;
+    width: 750px;
     height: 126px;
     text-wrap: wrap;
     font-size: 42px;
@@ -388,9 +388,9 @@
 .footer {
     margin-top: 105px;
     background-color: #031333;
-    width: 1600px;
+    width: 1200px;
     height: 412px;
-    padding: 73px 306px;
+    padding: 70px 120px;
     display: flex;
     align-items: center;
     justify-content: space-between;
